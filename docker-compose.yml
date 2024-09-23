@@ -1,0 +1,16 @@
+services:
+ 
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 210402
+      POSTGRES_USER: sonya
+      POSTGRES_DB: web_rails_development
+    ports:
+      - 5432:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+ 
+volumes:
+  pgdata:

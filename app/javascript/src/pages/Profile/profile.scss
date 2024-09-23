@@ -1,0 +1,106 @@
+@import "../../assets/variables";
+
+.profile {
+  width: 100%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: $white;
+  background-color: $pink;
+  background-image: url("../../assets/images/login-background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  .user-info {
+    width: max-content;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-radius: $radius;
+    background-color: $lBlack;
+    box-sizing: border-box;
+
+    img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 2px solid $pink;
+    }
+
+    .info {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+
+      b {
+        font-weight: bold;
+        color: $pink;
+      }
+    }
+  }
+  .user-raitings {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+  }
+
+  .user-values {
+    max-width: 50%;
+    width: 50%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    border-radius: $radius;
+    background-color: $lBlack;
+    box-sizing: border-box;
+
+    .header-profile {
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .empty-list {
+      margin: 20px auto;
+      color: $lPink;
+    }
+
+    .item {
+      padding: 24px;
+      background-color: $lPink;
+      width: 100%;
+      display: flex;
+      gap: 32px;
+      align-items: center;
+      border-radius: $radius;
+      overflow: hidden;
+      box-sizing: border-box;
+
+      img {
+        height: 120px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: $radius;
+        border: 2px solid $pink;
+      }
+
+      .item-content {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+
+        .name {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

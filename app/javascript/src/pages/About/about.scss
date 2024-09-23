@@ -1,0 +1,33 @@
+@import "../../assets/variables";
+
+.about {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: $pink;
+  background-image: url("../../assets/images/login-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+
+
+  .about-content {
+    margin: 60px;
+    color: $white;
+    padding: 48px;
+    background-color: $lBlack;
+    border-radius: $radius;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  h1 {
+    margin: 0 auto;
+    color: $pink;
+  }
+
+  h2 {
+    font-size: 16px;
+    color: $pink;
+  }
+}

@@ -1,0 +1,55 @@
+{
+	"header": {
+		"title": "Expertise",
+		"home": "Home",
+		"about": "About us"
+	},
+
+	"footer": {
+		"rights": "All rights reserved, 2024"
+	},
+
+	"login": {
+		"name": "Name",
+		"email": "Email",
+		"password": "Password",
+		"confirmPassword": "Confirm password",
+		"signIn": "Sign in",
+		"signUp": "Sign up",
+		"create": "Create account",
+		"login": "Login to account",
+		"authorization": "Authorization",
+		"registration": "Registration",
+		"errorSignIn": "Incorrect email or password",
+		"errorSignUp": "A user with such an email already exists",
+		"errorPassword": "Passwords don't match"
+	},
+
+	"home": {
+		"allThemes": "Topics for examination",
+		"averageValue": "Average rating",
+		"yourValue": "Your assessment",
+		"value": "Value",
+		"noTheme": "Theme is not selected",
+		"save": "Submit",
+		"info": "Each block contains several questions about how suitable the presented resort or country is for a certain type of vacation. You need to give your expert assessment."
+	},
+
+	"profile": {
+		"name": "Name",
+		"email": "Email",
+		"rating": "List of ratings",
+		"value": "Value",
+		"emptyRating": "The list is empty",
+		"averageRating": "List of assessments that coincide with the opinion of the majority of experts"
+	},
+
+	"about": {
+		"title": "About us",
+		"text1": "Welcome to our travel and country expert app! We've built a platform that helps people find the perfect vacation spot based on honest reviews and experiences from real users. Whether you're looking for winter skiing, summer beaches, active adventures, or a relaxing getaway, our app will help you choose the best option for your trip.",
+		"text2": "How does this work?",
+		"text3": "Our system asks users to complete a series of questions and rate countries or resorts on various criteria related to their vacation. There are various topics to choose from, including summer, winter, active vacations and other destinations. Users rate countries and resorts on a scale from 0 to 100, depending on how suitable they are for a particular type of vacation. These ratings help to form an objective picture of the places, so that other travelers can find the perfect destinations for their vacations.",
+		"text4": "Why is this important?",
+		"text5": "We believe that the best way to find the perfect vacation spot is to rely on the opinions and experiences of experts who have already been there."
+	}
+}
